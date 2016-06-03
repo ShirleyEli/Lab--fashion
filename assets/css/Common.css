@@ -1,0 +1,150 @@
+#header .navbar {
+  background-color: #E0DCDC !important;
+}
+
+#header a {
+  color: #9C9494 !important;
+}
+
+#header .navbar-toggle {
+  border: 1px solid #B7AFAF;
+}
+
+#header .icon-bar {
+  color: #B7AFAF;
+  border: 2px solid #B7AFAF;
+}
+
+#myNavbar ul {
+  margin-left: 60%;
+  margin-top: -5%;
+}
+
+#myNavbar li a {
+  color: #9C9494 !important;
+}
+
+#houre {
+  margin-top: 5%;
+}
+
+#houre i {
+  color: #8B8585;
+  display: inline-block;
+}
+
+#houre h4 {
+  font-family: 'Arimo', sans-serif;
+  display: inline-block;
+  position: absolute;
+  letter-spacing: 2px;
+  color: #8B8585;
+  margin-top: 0% !important;
+}
+
+#houre p {
+  font-family: 'Arimo', sans-serif;
+  color: #8B8585;
+  display: inline-block;
+}
+
+#houre img {
+  margin-left: 20%;
+}
+
+#houre #custom-search-input {
+  width: 20%;
+  border: solid 1px #E4E4E4;
+  border-radius: 6px;
+  background-color: #fff;
+  float: right;
+}
+
+#houre #custom-search-input input {
+  border: 0;
+  box-shadow: none;
+  width: 60%;
+}
+
+#houre #custom-search-input button {
+  margin: 2px 0 0 0;
+  background: none;
+  box-shadow: none;
+  border: 0;
+  color: #666666;
+  padding: 0 8px 0 10px;
+  border-left: solid 1px #ccc;
+}
+
+#houre #custom-search-input button:hover {
+  border: 0;
+  box-shadow: none;
+  border-left: solid 1px #ccc;
+}
+
+#houre #custom-search-input .glyphicon-search {
+  font-size: 23px;
+}
+
+#navMenu .navbar {
+  border: none !important;
+  height: 4em !important;
+  margin-bottom: 2%;
+}
+
+#backnew {
+  background-color: #E0DCDC !important;
+  margin-top: 5% !important;
+  padding-top: 2% !important;
+}
+
+#backnew a {
+  font-weight: 600;
+}
+
+#backnew a:hover {
+  background-color: #D57676 !important;
+  color: white !important;
+  font-weight: 100;
+}
+
+#backnew .dropcar {
+  float: right;
+  margin-left: 70%;
+  position: absolute;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #444040;
+  color: #fff !important;
+  font-size: 1.5em;
+  width: 6em;
+  padding: .5%;
+}
+
+#backnew .dropdown-menu {
+  margin-left: 80%;
+}
+
+#backnew .cant {
+  font-size: .5em !important;
+}
+
+#backnew .acce {
+  color: black;
+}
+
+#backnew .oferta {
+  position: absolute;
+  margin-top: -10%;
+}
+
+#backnew i {
+  margin-left: 5%;
+}
+
+#backnew .dropdown-toggle span {
+  width: 5em;
+}
+
+#backnew .prec span {
+  color: #DD6D6D;
+}

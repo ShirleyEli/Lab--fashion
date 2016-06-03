@@ -1,0 +1,217 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		title Fashion Accesories
+		link(rel="stylesheet" href="css/font-awesome.css")
+		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous")
+		link(rel="stylesheet" href="css/bootstrap.min.css")
+		link(rel="stylesheet" href="css/contact.css")
+		link(rel="stylesheet" href="css/animate.css")
+
+	body
+		header(id="header")
+			nav(class="navbar color")
+				div(class="container")
+					div(class="navbar-header")
+						button(type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar")
+							span(class="icon-bar")
+							span(class="icon-bar")
+							span(class="icon-bar")
+						a(class="navbar-brand" href="#") Default Welcome Msg!
+					div(class="collapse navbar-collapse" id="myNavbar")
+						ul(class="nav navbar-nav")
+							li(class="dropdown")
+								a(class="dropdown-toggle linea" data-toggle="dropdown" href="#")
+									img(src="images/flag1.png") 
+									p languaje
+									span(class="caret")
+								ul(class="dropdown-menu")
+									li
+										a(href="#") Español
+									li
+										a(href="#") Ingles
+							li(class="dropdown")
+								a(class="dropdown-toggle linea" data-toggle="dropdown" href="#")
+									i(class="fa fa-usd")
+									p currency
+									span(class="caret")
+								ul(class="dropdown-menu")
+									li
+										a(href="#") Dolar
+									li
+										a(href="#") Euro
+							li(class="dropdown")
+								a(class="dropdown-toggle linea" data-toggle="dropdown" href="#")
+									i(class="fa fa-user")
+									p My Account
+									span(class="caret")
+								ul(class="dropdown-menu")
+									li
+										a(href="#") Perfil
+									li
+										a(href="#") Configuracion
+									li
+										a(href="#") Salir
+			div(class="container" id="houre")
+				div(class="row")
+					div(class="col-xs-12 col-md-12 col-lg-12")
+						i(class="fa fa-clock-o fa-3x")
+						h4 OPENING TIME
+						p 9.00 AM - 10.00 PM
+						img(src="images/logo.png" alt="Accesories")
+						div(id="custom-search-input")
+							div(class="input-group col-md-12")
+								input(type="text" class="form-control input-lg" placeholder="Buscar")
+								span(class="input-group-btn")
+									button(class="btn btn-info btn-lg" type="buttton")
+										i(class="glyphicon glyphicon-search")
+		section(id="backnew")
+			div(class="container")
+				div(class="row")
+					nav(class="col-xs-12 col-md-12")
+						div(class="navbar")
+							ul(class="nav navbar-nav")
+								li
+									a(href="index.html") HOME
+								li
+									a(href="contact.html") CONTACT US
+								a(class="dropdown-toggle dropcar" data-toggle="dropdown" href="#")
+									i(class="fa fa-shopping-cart")
+									span My Cart
+									p(class="cant") 2 item(s)-$244.00
+								ul(class="dropdown-menu navbar-right")
+									li
+										a(href="#")
+											img(src="images/cart-1.jpg")
+											span(class="acce") Aliquam Consequat
+											p(class="oferta") 
+												i(class="fa fa-times")
+									li
+										a(href="#")
+											img(src="images/cart-2.jpg")
+											span(class="acce") Aliquam Consequat
+											p(class="oferta")
+												i(class="fa fa-times")
+									li
+										a(class="prec") Sub-Total
+											span $700
+									li
+										a(class="prec") Eco Tax (-2.00)
+											span $700
+									li
+										a(class="prec") VAT (20%)
+											span $40.00
+		section(id="contact")
+			div(class="container")
+				div(class="row")
+					div(class="col-xs-12 col-md-6")
+						p CONTACT US
+					div(class="col-xs-12 col-md-6")
+						span
+							b Contact info
+						span phone:0(1234) 567890
+						span Mail: Info@roadthemes.com
+						span Address: No.40 Baría Street 133/2 New York City, NY, United States
+		section
+			div(class="container" id="map")
+				.row
+					div(class="col-xs-12 col-md-6")
+						iframe(src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15051.958545586082!2d-99.17330445!3d19.41285375!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1460049778929" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen)
+					div(class="col-xs-12 col-md-6")
+						input(placeholder="First name" class="inpDos")
+						input(placeholder="Last name" class="inpDos")
+						input(placeholder="Email" class="inpDos")
+						input(placeholder="Website" class="inpDos")
+						input(placeholder="Subject" class="inpTres")
+						input(placeholder="Message" class="inpTres mess")
+						button SEND
+		footer(id="footer" class="backfoot")
+			div(class="container")
+				div(class="row")
+					div(class="col-xs-6 col-md-3")
+						h5
+							b ACCESORIES
+						p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+						a(href="#")
+							i(class="fa fa-facebook icons")
+						a(href="#")
+							i(class="fa fa-twitter icons")
+						a(href="#")
+							i(class="fa fa-rss icons")
+						a(href="#")
+							i(class="fa fa-skype icons")
+						a(href="#")
+							i(class="fa fa-dribbble icons")
+					div(class="col-xs-6 col-md-2")
+						h5
+							b MY ACCOUNT
+						ul
+							li
+								i(class="fa fa-caret-right")
+								a(href="#") My Account
+							li
+								i(class="fa fa-caret-right")
+								a(href="#") Order History
+							li
+								i(class="fa fa-caret-right")
+								a(href="#") Wish List
+							li
+								i(class="fa fa-caret-right")
+								a(href="#") Newletter
+					div(class="col-xs-6 col-md-2")
+						h5
+							b INFORMATION
+						ul
+							li
+								i(class="fa fa-caret-right")
+								a(href="#") About Us
+							li
+								i(class="fa fa-caret-right")
+								a(href="#") Delivery Information
+							li
+								i(class="fa fa-caret-right")
+								a(href="#") Privacy Policy
+							li
+								i(class="fa fa-caret-right")
+								a(href="#") Terms & Conditions
+					div(class="col-xs-6 col-md-2")
+						h5
+							b EXTRAS
+						ul
+							li
+								i(class="fa fa-caret-right")
+								a(href="#") Brans
+							li
+								i(class="fa fa-caret-right")
+								a(href="#") Gift Vouchers
+							li
+								i(class="fa fa-caret-right")
+								a(href="#") Affiliates
+							li
+								i(class="fa fa-caret-right")
+								a(href="#") Specials
+					div(class="col-xs-6 col-md-3")
+						h5
+							b ABOUT US
+						ul
+							li
+								i(class="fa fa-map-marker icocir fa-2x")
+								a(href="#") 8901 Marmora Road, Glasgow D04 89 GR, New York
+							li
+								i(class="fa fa-phone fa-2x icocir")
+								a(href="#") G(0123)456789
+								a(href="#") (0987)654321
+							li
+								i(class="fa fa-envelope fa-2x icocir")
+								a(href="#") Admin@bottexperts.com
+			div(class="container-fluid")
+				div(class="row backultfoo")
+					div(class="container")
+						div(class="col-xs-12 col-md-12")
+							p Copyright &copy; 2015
+								a(href="#") BootExperts.
+							p All rights reserved
+							img(src="images/payment.png")
+		script(src="js/jquery-1.12.3.min.js")
+		script(src="js/bootstrap.min.js")
